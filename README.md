@@ -10,27 +10,20 @@ Compilation
 
 You can currently compile either Server Proxy or Server Connect.
 
-Pull the project and get the dependencies:
-```bash
-$ go get github.com/LilyPad/GoLilyPad
-$ go get launchpad.net/goyaml
-```
+1) Pull the project: `go get github.com/LilyPad/GoLilyPad`
+
+2) Dependencies: `go get launchpad.net/goyaml`
 
 ### Server Connect ###
 
-```bash
-$ cd $GOPATH/pkg/github.com/LilyPad/GoLilyPad/server/connect/main
-```
+3.A) `cd $GOPATH/pkg/github.com/LilyPad/GoLilyPad/server/connect/main`
 
 ### Server Proxy ###
 
-```bash
-$ cd $GOPATH/pkg/github.com/LilyPad/GoLilyPad/server/proxy/main
-```
+3.B) `cd $GOPATH/pkg/github.com/LilyPad/GoLilyPad/server/proxy/main`
 
 ### Lastly ###
 
-```bash
-$ go build
-$ ./main
-```
+4) `go build`
+
+5) `./main`
